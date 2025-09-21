@@ -1,0 +1,78 @@
+[gd_resource type="EditorSettings" load_steps=2 format=3]
+
+[sub_resource type="InputEventKey" id="InputEventKey_30lf6"]
+keycode = 4194326
+
+[resource]
+interface/inspector/default_color_picker_mode = 1
+interface/theme/preset = "Custom"
+interface/theme/base_color = Color(0.179976, 0.206801, 0.251514, 1)
+interface/theme/accent_color = Color(0.6966, 0.5332, 0.86, 1)
+interface/theme/contrast = 0.3
+filesystem/external_programs/raster_image_editor = "F:/Krita/Krita (x64)/bin/krita.exe"
+filesystem/external_programs/3d_model_editor = "C:/Program Files/Blender Foundation/Blender 4.5/blender.exe"
+filesystem/directories/default_project_path = "E:/Godot folder"
+filesystem/import/blender/blender_path = "C:/Program Files/Blender Foundation/Blender 4.5/blender.exe"
+text_editor/theme/color_theme = "Custom"
+text_editor/theme/highlighting/keyword_color = Color(0.868, 0.64, 1, 1)
+text_editor/theme/highlighting/control_flow_keyword_color = Color(0.886667, 0.66, 1, 1)
+text_editor/theme/highlighting/base_type_color = Color(1, 0.941333, 0.56, 1)
+text_editor/theme/highlighting/engine_type_color = Color(0.62, 1, 0.689667, 1)
+text_editor/theme/highlighting/user_type_color = Color(0.619608, 1, 0.690196, 1)
+text_editor/theme/highlighting/comment_color = Color(0.8428, 0.849107, 0.86, 0.501961)
+text_editor/theme/highlighting/doc_comment_color = Color(0.747717, 0.6885, 0.85, 0.752941)
+text_editor/theme/highlighting/string_color = Color(1, 0.68, 0.68, 1)
+text_editor/theme/highlighting/background_color = Color(0.104607, 0.119464, 0.145466, 1)
+text_editor/theme/highlighting/completion_background_color = Color(0.167499, 0.1836, 0.221158, 1)
+text_editor/theme/highlighting/completion_selected_color = Color(0.212002, 0.230527, 0.272198, 1)
+text_editor/theme/highlighting/text_color = Color(0.85, 0.85, 0.85, 1)
+text_editor/theme/highlighting/line_number_color = Color(0.413, 0.413, 0.59, 0.4)
+text_editor/theme/highlighting/safe_line_number_color = Color(0.5832, 0.59832, 0.81, 0.6)
+text_editor/theme/highlighting/selection_color = Color(0.6966, 0.723833, 0.86, 0.137255)
+text_editor/theme/highlighting/current_line_color = Color(0.137286, 0.151281, 0.183932, 1)
+text_editor/theme/highlighting/word_highlighted_color = Color(0.8604, 0.801, 0.9, 0.14902)
+text_editor/theme/highlighting/number_color = Color(1, 0.63, 0.63, 1)
+text_editor/theme/highlighting/function_color = Color(0.637233, 0.699575, 1, 1)
+text_editor/theme/highlighting/member_variable_color = Color(0.912, 0.76, 1, 1)
+text_editor/theme/highlighting/code_folding_color = Color(0.379322, 0.460958, 0.542203, 1)
+text_editor/theme/highlighting/folded_code_region_color = Color(0.6264, 0.68324, 0.87, 0.0784314)
+text_editor/theme/highlighting/search_result_color = Color(0.18693, 0.0783, 0.27, 1)
+text_editor/theme/highlighting/search_result_border_color = Color(0.80444, 0.6461, 0.91, 0.380392)
+editors/3d_gizmos/gizmo_settings/bone_axis_length = 0.1
+network/connection/network_mode = 1
+version_control/username = "KonstantsinG"
+project_manager/default_renderer = "gl_compatibility"
+export/android/debug_keystore = "C:/Users/galaj/AppData/Roaming/Godot/keystores/debug.keystore"
+export/android/debug_keystore_pass = "android"
+export/android/java_sdk_path = ""
+export/android/android_sdk_path = "C:\\Users\\galaj\\AppData\\Local/Android/Sdk"
+export/macos/rcodesign = ""
+export/web/http_port = 8060
+export/web/tls_key = ""
+export/web/tls_certificate = ""
+export/windows/rcedit = ""
+export/windows/signtool = ""
+_editor_settings_advanced_mode = true
+_project_settings_advanced_mode = true
+_export_template_download_directory = "C:/Users/galaj/Downloads"
+_default_feature_profile = "Custom Profile"
+_script_setup_templates_dictionary = {}
+_use_favorites_root_selection = false
+_script_setup_use_script_templates = false
+text_editor/theme/highlighting/gdscript/function_definition_color = Color(0.57, 0.684667, 1, 1)
+text_editor/theme/highlighting/gdscript/node_reference_color = Color(0.57904, 0.88, 0.5456, 1)
+text_editor/theme/highlighting/gdscript/annotation_color = Color(0.673333, 0.4, 0.8, 1)
+text_editor/theme/highlighting/comment_markers/critical_color = Color(0.85, 0.3825, 0.3825, 1)
+text_editor/theme/highlighting/comment_markers/warning_color = Color(0.83, 0.702733, 0.4482, 1)
+text_editor/theme/highlighting/comment_markers/notice_color = Color(0.625067, 0.8, 0.544, 1)
+text_editor/theme/highlighting/gdscript/global_function_color = Color(0.6816, 0.6816, 0.96, 1)
+text_editor/theme/highlighting/comment_markers/critical_list = "BUG,ERROR,ALERT"
+text_editor/theme/highlighting/comment_markers/warning_list = "DEPRECATED,TODO,TOFIX,WARNING,NOTIMPLEMENTED"
+text_editor/theme/highlighting/comment_markers/notice_list = "INFO,NOTE,TEST"
+shortcuts = [{
+"name": "spatial_editor/viewport_zoom_modifier_1",
+"shortcuts": [SubResource("InputEventKey_30lf6")]
+}, {
+"name": "spatial_editor/viewport_zoom_modifier_2",
+"shortcuts": []
+}]
