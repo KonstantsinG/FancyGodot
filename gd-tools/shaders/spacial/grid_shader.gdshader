@@ -1,10 +1,13 @@
 shader_type spatial;
 render_mode cull_disabled, unshaded;
 
+group_uniforms grid_settings;
 uniform vec2 plane_dimensions = vec2(10.0, 10.0);
 uniform vec4 grid_color : source_color = vec4(1.0, 1.0, 1.0, 1.0);
 uniform float cell_size : hint_range(0.1, 10.0) = 1.0;
 uniform float line_width : hint_range(0.001, 0.1) = 0.02;
+
+group_uniforms fade_settings;
 uniform bool fade_edges = true;
 uniform float edges_fade_smoothness : hint_range(1.0, 5.0) = 2.0;
 uniform float distance_fade : hint_range(1.0, 10.0, 0.1) = 2.5;
